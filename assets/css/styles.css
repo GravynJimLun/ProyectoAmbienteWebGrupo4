@@ -1,0 +1,16 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+}
+.btn-primary {
+  background-color: #004d40;
+  border: none;
+}
+.btn-primary:hover {
+  background-color: #00332d;
+}
+.text-primary {
+  color: #004d40 !important;
+}
+.bg-light {
+  background-color: #f5f5f5 !important;
+}
