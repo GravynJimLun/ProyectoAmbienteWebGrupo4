@@ -10,11 +10,18 @@ CREATE TABLE clientes (
  telefono_personal VARCHAR(20),
  direccion_personal VARCHAR(255),
  email VARCHAR(150) UNIQUE,
- lugar_trabajo VARCHAR(150),
- direccion_trabajo VARCHAR(255),
- telefono_trabajo VARCHAR(20),
  usuario VARCHAR(50) NOT NULL UNIQUE,
  contrasena VARCHAR(255) NOT NULL
 );
 
+CREATE TABLE citas (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    nom_cliente VARCHAR(100) NOT NULL,
+    mascota VARCHAR(100) NOT NULL,
+    servicio VARCHAR(100) NOT NULL,
+    precio DECIMAL(10,2) NOT NULL,
+    fecha DATETIME NOT NULL
+);
+
+Select * from citas;
 Select * from Clientes;

@@ -94,21 +94,6 @@ if ($_SERVER['REQUEST_METHOD'] === "POST") {
                 </div>
 
                 <div class="mb-3">
-                    <label for="telefono_trabajo" class="form-label">Teléfono Trabajo:</label>
-                     <input type="tel" name="telefono_trabajo" id="telefono_trabajo" class="form-control" required>
-                </div>
-
-                <div class="mb-3">
-                     <label for="direccion_trabajo" class="form-label">Dirección Trabajo:</label>
-                      <input type="text" name="direccion_trabajo" id="direccion_trabajo" class="form-control" required>
-                </div>
-
-                <div class="mb-3">
-                     <label for="lugar_trabajo" class="form-label">Lugar de Trabajo:</label>
-                      <input type="text" name="lugar_trabajo" id="lugar_trabajo" class="form-control" required>
-                </div>
-
-                <div class="mb-3">
                     <label for="email" class="form-label">Correo electrónico:</label>
                     <input type="email" name="email" id="email" class="form-control" required>
                 </div>
@@ -133,8 +118,14 @@ if ($_SERVER['REQUEST_METHOD'] === "POST") {
                     Si ya estás registrado <a href="login.php">Inicia sesión aquí</a>
                 </p>
             </form>
-        </div>
+      </div>
+  
+  <footer class="footer mt-auto py-3 bg-dark text-white text-center">
+    <div class="container">
+      <span>© 2025 Agroescazú | Clínica Veterinaria</span>
     </div>
+    </div>
+    
 </div>
 </body>
 </html>
